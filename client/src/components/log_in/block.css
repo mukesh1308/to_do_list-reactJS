@@ -1,0 +1,43 @@
+.box>h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.box label>span{
+    font-size: 2rem;
+}
+
+.box label>input{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    margin: 1rem 0px 2rem 0px;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+.box label>input:focus{
+    outline: none;
+}
+.box button{
+    width:100%;
+    font-size: 2rem;
+    padding: 0.5rem 3.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    background-image: linear-gradient(to right,red,yellow);
+    cursor:pointer;
+    border: none;
+    margin-bottom: 1rem;
+}
+.box button:active{
+    background-image: linear-gradient(to right,rgb(224, 2, 2),rgb(217, 217, 0));
+}
+.error{
+    width: 100%;
+    height: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin: 1rem auto;
+    color: red;
+    font-size: 1.5rem;
+}

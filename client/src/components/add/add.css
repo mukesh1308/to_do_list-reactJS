@@ -1,0 +1,47 @@
+.add_to_do{
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 2rem;
+    transform: translateY(100%);
+}
+
+.add_to_do textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    border: 0.5px solid gray;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.add_to_do textarea:focus{
+    outline: none;
+}
+
+.add_to_do div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.add_to_do div button{
+    width: 8rem;
+    box-sizing: content-box;
+    background-image: none;
+    outline: 0.5px solid gray;
+}
+.add_to_do div .add{
+    background-color: #1ec93b;
+}
+.add_to_do div .add:active{
+    background-image: none;
+    background-color: #139228;
+}
+.add_to_do div .cancel{
+    color: black;
+}
+.add_to_do div .cancel:active{
+    background-image: none;
+    background-color: red;
+}

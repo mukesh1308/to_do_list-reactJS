@@ -1,0 +1,9 @@
+.list_container{
+    width: 100%;
+    flex-direction: column;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0px;
+}

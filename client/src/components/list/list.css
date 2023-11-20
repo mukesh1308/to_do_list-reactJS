@@ -1,0 +1,78 @@
+.list_item{
+    width:90%;
+    height:fit-content;
+    border: 1px solid gray;
+    display: block;
+    margin-bottom: 2rem;
+    padding:1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.list_item .list_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.list_item .tital_div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_item .button_cont{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_item .button_cont button{
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    outline:1px solid gray;
+    background-color: #1ec93b;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.list_item .button_cont img{
+    width:auto;
+    height: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.list_item img{
+    width:auto;
+    height: 2.5rem;
+    margin:0px 1rem;
+}
+.list_item span{
+    font-size: 1.5rem;
+}
+
+.list_item .content{
+    color: gray;
+}
+
+.list_item .tital{
+    text-transform: capitalize;
+}
+.list_item input[type="checkbox"]{
+    display: none;
+}
+.list_item input[type="checkbox"]+div{
+    display: none;
+    transition: 0.2s;
+}
+.list_item input[type="checkbox"]:checked+div{
+    display: block;
+}
+
+.list_item .drop_down span{
+    display: block;
+    padding: 0.5rem 1rem;
+}

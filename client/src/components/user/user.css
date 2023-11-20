@@ -1,0 +1,11 @@
+.user_data{
+    width: 100%;
+    height: fit-content; 
+    margin: 2rem 0px;
+    padding: 0px 2rem;
+    font-size: 1.5rem;
+}
+.user_data tr td:nth-child(1){
+    font-weight: 600;
+    width: 7rem;
+}

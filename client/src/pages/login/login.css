@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 40rem;
+    height: fit-content;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 4rem 2rem;
+    box-shadow: 1px 1px 2px gray;
+}
+.box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box div span{
+    font-size: 1.5rem;
+}
+.box div .signup{
+    color: blue;
+    cursor: pointer;
+}

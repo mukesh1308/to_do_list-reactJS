@@ -1,0 +1,60 @@
+nav{
+    width:100%;
+    height: 7rem;
+    background-color: #066bc6;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    margin-left: 5rem;
+}
+nav .logo img{
+    width: auto;
+    height: 7rem;
+}
+
+nav .user{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+nav .user button{
+    padding: 1rem 2rem;
+    background-color: #1ec93b;
+    border: none;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+nav .user button:active{
+    background-color: #159a2b;
+}
+nav .user img{
+    width: auto;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+nav .user .log_out{
+    width: fit-content;
+    height: fit-content;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
